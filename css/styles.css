@@ -1,0 +1,104 @@
+/* =header------------------*/
+header {
+  margin-top: 20px;
+}
+
+header h1 {
+  background: url(../img/logo.png) no-repeat;
+  text-indent: -9999px;
+  width: 320px;
+  height: 120px;
+  float: left;
+}
+header ul {
+  float: right;
+}
+header li {
+  display: inline;
+}
+
+/* =Navigation------------------*/
+nav a {
+  font-family: Raleway,​sans-serif;
+  padding-top: 30px;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav a:hover,nav a::selected {
+  color: green;
+}
+
+/* =misc------------------*/
+h1 {
+  margin: 10px 0;
+  font-size: 39px;
+  font-weight: 300;
+  line-height: 1.1em;
+}
+
+h2 {
+  display: flex;
+  color: #999999;
+}
+
+body {
+  font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
+  font-size: 17px;
+}
+
+/* =banners------------------*/
+.banner_wrap {
+  background: url(../img/banner-business.jpg) no-repeat;
+  height: 283px;
+}
+
+
+.img_text h6{
+  font-size: 25px;
+  width: 700px;
+  display: flex;
+  color: white;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+
+/* =services------------------*/
+.service1,.service2,.service3 {
+  width: 300px;
+  height: 183px;
+}
+
+.service1 a,.service2 a,.service3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.service1 {
+  background: url("../img/img1.jpg") no-repeat;
+}
+
+.service2 {
+  background: url("../img/img2.jpg") no-repeat;
+}
+.service3 {
+  background: url("../img/img3.jpg") no-repeat;
+}
+
+.service1 h6,.service2 h6,.service3 h6{
+  width: 200px;
+  position: relative;
+}
+.service1 h5,.service2 h5,.service3 h5 {
+  position: relative;
+
+  color: #999999;
+  font-size: 25px;
+  padding-top: 70px;
+}
+
+footer {
+  margin-bottom: 20px;
+}
