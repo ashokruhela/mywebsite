@@ -27,10 +27,6 @@ nav a {
   font-weight: bold;
 }
 
-nav a:hover,nav a::selected {
-  color: green;
-}
-
 /* =misc------------------*/
 h1 {
   margin: 10px 0;
@@ -44,6 +40,10 @@ h2 {
   color: #999999;
 }
 
+a:hover,a:active {
+  color: orange;
+
+}
 
 
 /* =banners------------------*/
@@ -53,14 +53,18 @@ h2 {
 }
 
 
-.banner_wrap h6{
+.banner_wrap a{
+  text-decoration: none;
   font-size: 25px;
   width: 700px;
   display: flex;
   color: white;
-  font-weight: normal;
-  background: blue;
-  opacity: .3;
+  font-weight: bold;
+  position: relative;
+  top: 150px;
+  left: 5%;
+  background: grey;
+  opacity: .9;
 }
 
 /* =body------------------*/
@@ -70,9 +74,9 @@ body {
 }
 
 /* =services------------------*/
-.service1,.service2,.service3 {
+.service1,.service2,.service3,.prf1,.prf2,.prf3,.prf4,.prf5,.prf6 {
   width: 300px;
-  height: 183px;
+  height: 300px;
 }
 
 .service1 {
@@ -85,11 +89,16 @@ body {
   background: url("../img/img3.jpg") no-repeat;
 }
 
-.service1 a,.service2 a,.service3 a {
+.service1 a,.service2 a,.service3 a,.prf1 a,.prf2 a,.prf3 a,.prf4 a,.prf5 a,.prf6 a {
   width: 200px;
   color: white;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 27px;
+  font-weight: normal;
+  background: grey;
+  opacity: .9;
+  position: relative;
+  top: 200px;
 }
 
 .detail {
@@ -111,7 +120,7 @@ footer {
   color: white;
   background: grey;
   box-sizing: border-box;
-  font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
+  margin-top: 30px;
 }
 
 footer h4 {
@@ -146,6 +155,10 @@ footer li::after{
 }
 footer li:last-child::after {
   content: ' ';
+}
+
+hr {
+  height: 2px;
 }
 .site_map p {
   padding: 0px;

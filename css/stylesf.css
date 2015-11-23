@@ -1,0 +1,39 @@
+.prf1,.prf2,.prf3,.prf4,.prf5,.prf6 {
+  text-indent: -9999px;
+}
+
+.prf1 {
+  background: url("../img/tax.jpg") no-repeat;
+}
+
+.prf2 {
+  background: url("../img/team.jpg") no-repeat;
+
+}
+.prf3 {
+  background: url("../img/news.jpg") no-repeat;
+}
+.prf4 {
+  background: url("../img/client.jpg") no-repeat;
+}
+.prf5 {
+  background: url("../img/whyus.jpg") no-repeat;
+}
+.prf6 {
+  background: url("../img/galary.jpg") no-repeat;
+}
+
+.heading h3 {
+  color: grey;
+}
+
+.banner {
+  width: 960px;
+  padding: 20px;
+}
+
+.text {
+  padding-top: 10px;
+  color: grey;
+  height: 150px;
+}
