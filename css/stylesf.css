@@ -1,5 +1,6 @@
 .prf1,.prf2,.prf3,.prf4,.prf5,.prf6 {
   text-indent: -9999px;
+  padding-left: 0;
 }
 
 .prf1 {
@@ -29,7 +30,6 @@
 
 .banner {
   width: 960px;
-  padding: 20px;
 }
 
 .text {
