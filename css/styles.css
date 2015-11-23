@@ -160,6 +160,11 @@ footer li::after{
 footer li:last-child::after {
   content: ' ';
 }
+.social img {
+  width: 15px;
+  height: 15px;
+  padding: 1px;
+}
 
 hr {
   height: 2px;
