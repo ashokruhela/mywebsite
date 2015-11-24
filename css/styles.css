@@ -17,6 +17,10 @@ header li {
   display: inline;
 }
 
+.menu:active {
+  color: red;
+}
+
 /* =Navigation------------------*/
 nav a {
   font-family: Raleway,​sans-serif;
@@ -83,7 +87,6 @@ h2 {
 .banner_text a:hover,.button:hover {
   background: blue;
 }
-
 
 /* =body------------------*/
 body {
