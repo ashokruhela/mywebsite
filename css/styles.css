@@ -27,6 +27,10 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  color: orange;
+}
+
 /* =misc------------------*/
 h1 {
   margin: 10px 0;
@@ -40,32 +44,46 @@ h2 {
   color: #999999;
 }
 
-a:hover,a:active {
-  color: orange;
-
-}
-
-
 /* =banners------------------*/
 .banner_wrap {
-  background: url(../img/banner-business.jpg) no-repeat;
-  height: 283px;
+  background: url(../img/banner-two.jpg) no-repeat;
+  height: 600px;
 }
 
-
-.banner_wrap a{
-  text-decoration: none;
-  font-size: 25px;
-  width: 700px;
-  display: flex;
-  color: white;
-  font-weight: bold;
-  position: relative;
-  top: 150px;
-  left: 5%;
+.banner_text{
+  width: 600px;
+  height: 180px;
   background: grey;
-  opacity: .9;
+  opacity: .8;
+  padding-left: 20px;
+  position: relative;
+  top: 50%;
+  color: #ffffff;
+  text-align: center;
 }
+
+.banner_text h1{
+  font-size: 32px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.banner_text p {
+  font-size: 20px;
+}
+
+.banner_text a,.button {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #1fbfcd;
+  border-color: #1caab7;
+  padding: 5px;
+}
+
+.banner_text a:hover,.button:hover {
+  background: blue;
+}
+
 
 /* =body------------------*/
 body {
@@ -73,11 +91,13 @@ body {
   font-size: 17px;
 }
 
+
 /* =services------------------*/
 .service1,.service2,.service3,.prf1,.prf2,.prf3,.prf4,.prf5,.prf6 {
-  width: 300px;
+  width: 320px;
   height: 300px;
   margin-left: 0;
+  padding-left: 10px;
 }
 
 .service1 {
@@ -102,21 +122,22 @@ body {
   top: 200px;
 }
 
-.detail {
+.detail p {
   color: #999999;
-  font-size: 25px;
-  width: 200px;
+  font-size: 20px;
   padding-top: 20px;
   margin-left: 0;
+  font: Lato,sans-serif;
 }
 
+/* =button------------------*/
 .button {
-  font-size: 15px;
-  text-decoration: none;
-  background: black;
-  color: white;
-  padding: 6px;
+  margin-right: 0px;
+
 }
+
+
+/* =footer------------------*/
 
 footer {
   color: white;
@@ -161,8 +182,8 @@ footer li:last-child::after {
   content: ' ';
 }
 .social img {
-  width: 15px;
-  height: 15px;
+  width: 30px;
+  height: 30px;
   padding: 1px;
 }
 
