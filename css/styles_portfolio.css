@@ -9,13 +9,15 @@
   padding-bottom: 20px;
 }
 
+.prf2,.prf3,.prf5,.prf6 {
+  margin-left: 10px;
+}
+
 .prf1 {
   background: url("../img/tax.jpg") no-repeat;
 }
-
 .prf2 {
   background: url("../img/team.jpg") no-repeat;
-
 }
 .prf3 {
   background: url("../img/news.jpg") no-repeat;
