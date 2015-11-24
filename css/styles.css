@@ -59,10 +59,10 @@ nav a:hover {
 
 /* =misc------------------*/
 h1 {
-  margin: 10px 0;
+  padding-top: 10px;
   font-size: 39px;
-  font-weight: 300;
   line-height: 1.1em;
+  font-weight: normal;
 }
 
 h2 {
@@ -165,7 +165,6 @@ body {
 
 }
 
-
 /* =footer------------------*/
 
 footer {
@@ -189,7 +188,6 @@ footer a {
   border: 2px dashed white;
   margin-bottom: 30px;
   padding: 10px;
-  padding-left: 0px;
 }
 .date {
   text-align: right;
