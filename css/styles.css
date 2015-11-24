@@ -147,6 +147,10 @@ body {
   top: 200px;
 }
 
+.service1 a:hover,.service2 a:hover,.service3 a:hover {
+  color: orange;
+}
+
 .detail p {
   color: #999999;
   font-size: 20px;
