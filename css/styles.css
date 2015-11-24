@@ -98,7 +98,7 @@ h2 {
   font-size: 20px;
 }
 
-.banner_text a,.button {
+.banner_text a,.button,.heading_block a {
   color: #ffffff;
   text-decoration: none;
   background-color: #1fbfcd;
@@ -106,7 +106,7 @@ h2 {
   padding: 5px;
 }
 
-.banner_text a:hover,.button:hover {
+.banner_text a:hover,.button:hover,.heading_block a:hover {
   background: blue;
 }
 
@@ -151,7 +151,7 @@ body {
   color: orange;
 }
 
-.detail p {
+.detail p,.heading_block span {
   color: #999999;
   font-size: 20px;
   padding-top: 20px;
@@ -163,6 +163,21 @@ body {
 .button {
   margin-right: 0px;
 
+}
+
+/*=Image just after the footer tag*/
+.image_block {
+  background: url("../img/reports_chart.png") no-repeat;
+  width: 320;
+  height: 400px;
+  margin-top: 20px;
+  text-indent: -9999px;
+}
+
+.heading_block {
+  height: 400px;
+  margin-left: 10px;
+  margin-top: 50px;
 }
 
 /* =footer------------------*/
