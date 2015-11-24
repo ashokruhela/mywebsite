@@ -17,6 +17,28 @@ header li {
   display: inline;
 }
 
+/*=site_search*/
+.site_search {
+  font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
+  position: relative;
+  float: right;
+  top: 40px;
+  height: 40px;
+}
+#search_text {
+  height: 30px;
+  width: 350px;
+  font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
+  font-size: 17px;
+  border: 2px solid;
+  border-color: #1caab7;
+  padding: 2px;
+  margin: 1px;
+  /*border: 1px solid #ffffff;*/
+}
+.site_search img {
+}
+
 .menu:active {
   color: red;
 }
