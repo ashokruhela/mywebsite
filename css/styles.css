@@ -53,9 +53,10 @@ nav a {
   font-weight: bold;
 }
 
-nav a:hover {
+nav a:hover,.selected,.menu-port {
   color: orange;
 }
+
 
 /* =misc------------------*/
 h1 {
